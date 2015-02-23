@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Neil Pullman"]
   gem.email         = ["neil@descend.org"]
   gem.description   = %q{ Basic API wrapper for choir.io }
+  gem.summary       = gem.description
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
